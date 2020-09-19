@@ -1,0 +1,23 @@
+RewriteEngine On
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-l
+RewriteRule id id.php
+RewriteRule vid vid.php
+RewriteRule edit edit.php
+RewriteRule input input.php
+RewriteRule photo photo.php
+RewriteRule new new.php
+RewriteRule message message.php
+RewriteRule friend friend.php
+RewriteRule group group.php
+RewriteRule music music.php
+RewriteRule game game.php
+RewriteRule pay pay.php
+RewriteRule product product.php
+RewriteRule document document.php
+RewriteRule watch watch.php
+RewriteRule videopleer videopleer.php
+RewriteRule club club.php
+RewriteRule redactor redactor.php
+AddType text/css .css 
